@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: black;
+    background-image: url(../photos/WhatsApp\ Image\ 2022-12-19\ at\ 22.07.48.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+nav{
+    padding: 10px;
+    background-color: #02022a;
+    height: 57px;
+    position: relative;
+    z-index: 9999999;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-left: 5px;
+}
+nav ul li:hover{
+    background-color: rgba(255, 255, 255, 0.448);
+    width: 200px;
+}
+nav ul li:hover a{
+    color: black;
+}
+
+nav ul li a{
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a i{
+    margin: 5px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1{
+       width: 100%;
+        position: relative;
+        top: 25px;
+        padding: 50px;
+        border-radius: 20px;
+    color: white;
+       
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+    font-size: large;
+}
+.list-group{
+
+ width: 50%;
+height:100%;
+float: right;
+}
+.list-group-item{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.cont-call{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.call{
+    background-color: rgba(255, 255, 255, 0.484);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    position: relative;
+    height: 220px;
+    width: 255px;
+
+}
+.call i{
+    background-color: orange;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 40px;
+    padding: 15px;
+    position: absolute;
+    bottom: 170px;
+    right: 95px;
+
+}
+.call h2{
+    padding-top: 70px;
+}
+form{
+    background-color: rgba(255, 255, 255, 0.574);
+    margin-top: 79px;
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: center;
+    position: relative;
+
+}
+input,
+select {
+    padding: 5px;
+    width: 233px;
+    border-radius: 9px;
+}
+form button{
+    padding: 15px;
+    background-color: orange;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+form button:hover{
+    color: white;
+}

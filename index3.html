@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/styel3.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normaliz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <title>BRASHKA</title>
+</head>
+  <body>
+    <nav class="navbar navbar-dark bg-#304ffe fixed-top d-md-none">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">BRASHKA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">BRASHKA</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="index.html"><i class="fa-solid fa-house"></i>HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="index2.html"><i class="fa-solid fa-bars"></i>MENU</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="index3.html"><i class="fa-solid fa-check"></i>RESERVATION</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index4.html"><i class="fa-solid fa-user"></i>ABOUT</a>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+        <nav class=" d-none d-md-block ">
+            <ul>
+                <li><a href="index.html"> <i class="fa-solid fa-house"></i>HOME</a></li>
+                <li><a href="index2.html"> <i class="fa-solid fa-bars"></i>MENU</a></li>
+                <li><a href="index3.html"> <i class="fa-solid fa-check"></i>RESERVATION</a></li>
+                <li><a href="index4.html"> <i class="fa-solid fa-user"></i>ABOUT</a></li>
+            </ul>
+        </nav>
+    <div class="container">
+
+        <div class="card1 col-lg-12  col-xl-6">
+            <h3>CONTACT US</h3>
+            <h1>Here You Can Make A Reservation<br/>
+                Or Just walkin to our cafe</h1>
+                <p class="card-text1">
+                    Donec pretium est orci, non vulputate arcu hendrerit a. Fusce a
+                    eleifend riqsie,<br />
+                    namei sollicitudin urna diam, sed commodo purus porta ut..
+                </p>
+                <div class="cont-call ">
+                    <div class="call">
+                        <div class="">
+                        <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <h2>Phone Numbers</h2>
+                        <p>0100-001-001</p>
+                        <p>0120-002-002</p>
+                    </div>
+                    <div class="call  d-none d-md-block">
+                        <div class="">
+                            <i class="fa-solid fa-envelope "></i>
+                        </div>
+                        <h2>Emails</h2>
+                        <p>hello@company.com</p>
+                        <p>info@company.com</p>
+                    </div>
+                </div>
+                <div class="container mt-5">
+                    
+                    <div class="call  d-xs-block d-md-none text-center">
+                        <div class="">
+                            <i class="fa-solid fa-envelope "></i>
+                        </div>
+                        <h2>Emails</h2>
+                        <p>hello@company.com</p>
+                        <p>info@company.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <form class="d-none d-xl-block" id="contact" action="" method="post">
+                <div class="row  ">
+                    <h4 style="text-align: center;"><b>Table Reservation</b></h4>
+                    <div class="col-lg-12">
+                    </div>
+                    <div class="col-lg-12  col-xl-6 text-center">
+                        <fieldset>
+                        <input name="name" type="text" id="name" placeholder="Your Name" required="">
+                    </fieldset>
+                </div>
+                <div class="col-lg-12  col-xl-6 text-center">
+                    <fieldset>
+                        <input name="email" type="text" id="email" pattern="" placeholder="Your Email Address" required="">
+                    </fieldset>
+                </div>
+                <div class="col-lg-12  col-xl-6 text-center">
+                    <fieldset>
+                        <input name="phone" type="text" id="phone" placeholder="Phone Number*" required="">
+                    </fieldset>
+                </div>
+                <div class="col-lg-12  col-xl-6 text-center">
+                    <fieldset>
+                        <select value="number-guests" name="number-guests" id="number-guests">
+                            <option value="number-guests">Number Of Guests</option>
+                            <option name="1" id="1">1</option>
+                            
+                            <option name="2" id="2">2</option>
+                            <option name="3" id="3">3</option>
+                            <option name="4" id="4">4</option>
+                            <option name="5" id="5">5</option>
+                            <option name="6" id="6">6</option>
+                            <option name="7" id="7">7</option>
+                            <option name="8" id="8">8</option>
+                            <option name="9" id="9">9</option>
+                            <option name="10" id="10">10</option>
+                            <option name="11" id="11">11</option>
+                            <option name="12" id="12">12</option>
+                        </select>
+                    </fieldset>
+                </div>
+                <div class="col-lg-12  col-xl-6 text-center">
+                    <fieldset>
+                        <input name="date" type="text" id="date" placeholder="dd/mm/yyyy" required="">
+                    </fieldset>
+                </div>
+                <div class="col-lg-12  col-xl-6 text-center">
+                    <fieldset>
+                        <select value="time" name="time" id="time" >
+                            <option value="time">Time</option>
+                            <option name="Breakfast" id="Breakfast">Breakfast</option>
+                            <option name="Lunch" id="Lunch">Lunch</option>
+                            <option name="Dinner" id="Dinner">Dinner</option>
+                        </select>
+                    </fieldset>
+                </div>
+                <div class="col-12 text-center">
+                    <fieldset>
+                        <textarea name="message" rows="6" id="message" placeholder="Message" required="" style="width: 90%; margin: 30px;  border-radius: 9px;"></textarea>
+                    </fieldset>
+                </div>
+                <div class="col text-center">
+                    <fieldset>
+                        <button type="submit" id="form-submit" class="main-button-icon align-self-center"  >Make A Reservation</button>
+                    </fieldset>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <form class="  d-xl-none" id="contact" action="" method="post">
+            <div class="row  ">
+                <h4 style="text-align: center;"><b>Table Reservation</b></h4>
+                <div class=" text-center col-lg-6 col-md-12">
+                    <fieldset>
+                    <input name="name" type="text" id="name" placeholder="Your Name" required="">
+                </fieldset>
+            </div>
+            <div class=" text-center col-lg-6 col-md-12">
+                <fieldset>
+                    <input name="email" type="text" id="email" pattern="" placeholder="Your Email Address" required="">
+                </fieldset>
+            </div>
+            <div class=" text-center col-lg-6 col-md-12">
+                <fieldset>
+                    <input name="phone" type="text" id="phone" placeholder="Phone Number*" required="">
+                </fieldset>
+            </div>
+            <div class=" text-center col-lg-6 col-md-12">
+                <fieldset>
+                    <select value="number-guests" name="number-guests" id="number-guests">
+                        <option value="number-guests">Number Of Guests</option>
+                        <option name="1" id="1">1</option>
+                        
+                        <option name="2" id="2">2</option>
+                        <option name="3" id="3">3</option>
+                        <option name="4" id="4">4</option>
+                        <option name="5" id="5">5</option>
+                        <option name="6" id="6">6</option>
+                        <option name="7" id="7">7</option>
+                        <option name="8" id="8">8</option>
+                        <option name="9" id="9">9</option>
+                        <option name="10" id="10">10</option>
+                        <option name="11" id="11">11</option>
+                        <option name="12" id="12">12</option>
+                    </select>
+                </fieldset>
+            </div>
+            <div class=" text-center col-lg-6 col-md-12">
+                <fieldset>
+                    <input name="date" type="text" id="date" placeholder="dd/mm/yyyy" required="">
+                </fieldset>
+            </div>
+            <div class=" text-center col-lg-6 col-md-12">
+                <fieldset>
+                    <select value="time" name="time" id="time" >
+                        <option value="time">Time</option>
+                        <option name="Breakfast" id="Breakfast">Breakfast</option>
+                        <option name="Lunch" id="Lunch">Lunch</option>
+                        <option name="Dinner" id="Dinner">Dinner</option>
+                    </select>
+                </fieldset>
+            </div>
+            <div class="col-12 text-center">
+                <fieldset>
+                    <textarea name="message" rows="6" id="message" placeholder="Message" required="" style="width: 90%; margin: 30px;  border-radius: 9px;"></textarea>
+                </fieldset>
+            </div>
+            <div class="col text-center">
+                <fieldset>
+                    <button type="submit" id="form-submit" class="main-button-icon align-self-center"  >Make A Reservation</button>
+                </fieldset>
+            </div>
+        </div>
+    </form>
+    </div>
+    <script src="all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

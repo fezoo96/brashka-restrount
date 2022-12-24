@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/styel2.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normaliz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <title>BRASHKA</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-#304ffe fixed-top d-md-none">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">BRASHKA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">BRASHKA</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="index.html"><i class="fa-solid fa-house"></i>HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="index2.html"><i class="fa-solid fa-bars"></i>MENU</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index3.html"><i class="fa-solid fa-check"></i>RESERVATION</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index4.html"><i class="fa-solid fa-user"></i>ABOUT</a>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+        <nav class=" d-none d-md-block ">
+            <ul>
+                <li><a href="index.html"> <i class="fa-solid fa-house"></i>HOME</a></li>
+                <li><a href="index2.html"> <i class="fa-solid fa-bars"></i>MENU</a></li>
+                <li><a href="index3.html"> <i class="fa-solid fa-check"></i>RESERVATION</a></li>
+                <li><a href="index4.html"> <i class="fa-solid fa-user"></i>ABOUT</a></li>
+            </ul>
+        </nav>
+        
+   <div class="container">
+    
+
+      <ul>
+        <li><div class="dropdown d-none d-md-block">
+          <button class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            FOOD
+          </button>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button">BRACKFAST</button></li>
+            <li><button class="dropdown-item" type="button">LUNCH</button></li>
+            <li><button class="dropdown-item" type="button">DINNER</button></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+          <div class="dropdown d-none d-md-block">
+            <button class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              DRINK
+            </button>
+            <ul class="dropdown-menu">
+              <li><button class="dropdown-item" type="button">HOT DRINK</button></li>
+              <li><button class="dropdown-item" type="button">COLD DRINK</button></li>
+            </ul>
+          </div>
+        </li>
+        <li><div class="dropdown d-none d-md-block ">
+          <button class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SANDWICHES
+          </button>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button">Adana Kebab</button></li>
+            <li><button class="dropdown-item" type="button">şiş Tavuk</button></li>
+            <li><button class="dropdown-item" type="button">kuşbaşı</button></li>
+          </ul>
+        </div></li>
+        <li><div class="dropdown d-none d-md-block ">
+          <button class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SOUP
+          </button>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button">Etli Sebze Çorbası</button></li>
+            <li><button class="dropdown-item" type="button">Tavuklu Mantar Çorbası</button></li>
+            <li><button class="dropdown-item" type="button">Mercimek Corbası</button></li>
+            <li><button class="dropdown-item" type="button">Tavuk Çorbası</button></li>
+          </ul>
+        </div></li>
+        <li><div class="dropdown d-none d-md-block ">
+          <button class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            DESSERTES
+          </button>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item" type="button">Nutella Künefe</button></li>
+            <li><button class="dropdown-item" type="button">Peynirli Künefe</button></li>
+            <li><button class="dropdown-item" type="button">Dondurmalı Baklava</button></li>
+            <li><button class="dropdown-item" type="button">Fıstıklı Künefe</button></li>
+            <li><button class="dropdown-item" type="button">Fıstıklı</button></li>
+          </ul>
+        </div></li>
+      </ul>
+      <div class="row d-flex justify-content-md-around mt-5">
+
+        <div class="container-card col-xs-12 col-sm-12  col-md-6 col-lg-3 mt-5 m-2">
+          <img src="photos/12ac7c3d-b480-4535-bb41-39cdb01659cd.jpg" alt="">
+          <h3>Greeks in Egypt Salad</h3>
+          <p>EGP 24</p>
+          <p>Tomatoes, cucumbers, green peppers, red onions, kalamata olives, fetameeli cheese </p>
+          <div>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <button>Order</button>
+        </div>
+
+        <div class="container-card col-xs-12 col-sm-12  col-md-6 col-lg-3 mt-5 m-2">
+          <img src="photos/26524650-f31a-46fb-a439-bd8b64cd0f9d.jpg" alt="">
+          <h3>Bluecado Salad</h3>
+          <p>EGP 24</p>
+          <p>A fabulous blue cheese salad with a fresh avocado dressing </p>
+          <div>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <button>Order</button>
+        </div>
+       
+        <div class="container-card col-xs-12 col-sm-12  col-md-6 col-lg-3 mt-5 m-2">
+          <img src="photos/b9b30c9f-7f25-4383-a628-500925f75042.jpg" alt="">
+          <h3>O's Salad</h3>
+          <p>EGP 24</p>
+          <p>Shrimps, arugula, mushrooms, parmigiano, served with a creamy balsamic dressing and topped with a slice of sun-dried orange </p>
+          <div>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <button>Order</button>
+        </div>
+  
+        <div class="container-card col-xs-12 col-sm-12  col-md-6 col-lg-3 mt-5 m-2">
+          <img src="photos/809a9f00-7bc9-40d1-b316-d702a30d1022.jpg" alt="">
+          <h3>La Vie En Rose</h3>
+          <p>EGP 24</p>
+          <p>Penne pasta with shrimps in a basil, oregano, and fresh tomato cream rose sauce with hint of ground hot red peppers </p>
+          <div>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <button>Order</button>
+        </div>
+        
+        <div class="container-card col-xs-12 col-sm-12  col-md-6 col-lg-3 mt-5 m-2">
+          <img src="photos/02c233fd-1c7a-4597-b563-ced03635af63.jpg" alt="">
+          <h3>Rosemary's</h3>
+          <p>EGP 24</p>
+          <p>Penne pasta with lightly buttered diced chicken breasts and fresh mushrooms in a rosemary cream infusion, an O's favorite </p>
+          <div>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <button>Order</button>
+        </div>
+
+        <div class="container-card col-xs-12 col-sm-12  col-md-6 col-lg-3 mt-5 m-2">
+           <img src="photos/3b18e3cb-41f1-4316-b0e1-7f7b30cdf9be.jpg" alt="">
+           <h3>Sun-Kissed Cream</h3>
+           <p>EGP 24</p>
+           <p>Fettuccine in a heavenly blend of the finest freshly ground Egyptian sun-dried tomatoes and fresh cream speckled with thin slices of green scallions. </p>
+           <div>
+             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+           </div>
+           <button>Order</button>
+         </div>
+
+         <div class="container-card col-xs-12 col-sm-12  col-md-6 col-lg-3 mt-5 m-2">
+           <img src="photos/b5446097-52af-4408-8384-cc6111b1b986.jpg" alt="">
+           <h3>Basil Penne all' Arrabiata</h3>
+           <p>EGP 24</p>
+           <p>Penne pasta with fresh tomatoes, crushed garlic, chopped basil, red pepper flakes </p>
+           <div>
+             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+           </div>
+           <button>Order</button>
+         </div>
+         <div class="container-card col-xs-12 col-sm-12  col-md-6 col-lg-3 mt-5 m-2">
+           <img src="photos/8dd7836d-5473-4d46-a2b7-268627a89035.jpg" alt="">
+           <h3>Yershigian</h3>
+           <p>EGP 24</p>
+           <p>Penne pasta with Yershig (traditional Armenian sausages) in a fresh tomato and mint leaf sauce. A taste of Armenia right here </p>
+           <div>
+             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+           </div>
+           <button>Order</button>
+         </div>
+         <div class="container-card col-xs-12 col-sm-12  col-md-6 col-lg-3 mt-5 m-2">
+           <img src="photos/e064e353-7c3f-4416-bd15-fbb2f779305f.jpg " alt="">
+           <h3>Scampioni</h3>
+           <p>EGP 24</p>
+           <p>Spaghetti pasta with perfectly cooked shrimp, butter, freshly squeezed lemon, crushed garlic, sun-dried smokey sweet red bell peppers, fresh parsley</p>
+           <div>
+             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+           </div>
+           <button>Order</button>
+         </div>
+         <div class="container-card col-xs-12 col-sm-12  col-md-6 col-lg-3 mt-5 m-2">
+           <img src="photos/36adc2cc-cebd-4c02-a805-3b6991eb931c.jpg" alt="">
+           <h3>Basil Tomato Soup</h3>
+           <p>EGP 24</p>
+           <p>Fresh Tomatoes, basil, celery, red onions and olive oil </p>
+           <div>
+             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+           </div>
+           <button>Order</button>
+         </div>
+         <div class="container-card col-xs-12 col-sm-12  col-md-6 col-lg-3 mt-5 m-2">
+           <img src="photos/be7cdc42-b462-4fe2-be34-4b1751bd69ae.jpg" alt="">
+           <h3>Sweet Potato Soup</h3>
+           <p>EGP 24</p>
+           <p>Sweet potatoes, red onions, carrots, yellow apples and spices </p>
+           <div>
+             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+           </div>
+           <button>Order</button>
+         </div>
+         <div class="container-card col-xs-12 col-sm-12  col-md-6 col-lg-3 mt-5 m-2">
+           <img src="photos/1d171c51-0128-4556-ad92-fd04c36042d2.jpg" alt="">
+          <h3>Green Pea Soup</h3>
+           <p>EGP 24</p>
+           <p>100%freesh </p>
+           <div>
+             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+           </div>
+           <button>Order</button>
+         </div>
+         <div class="container-card col-xs-12 col-sm-12  col-md-6 col-lg-3 mt-5 m-2">
+           <img src="photos/9015df0c-682b-48a1-ac5c-86f22c46e858.jpg " alt="">
+           <h3>Caprese</h3>
+           <p>EGP 24</p>
+           <p>Fresh buffalo mozzarella, tomatoes, basil, marjoram and olive oil </p>
+           <div>
+             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+             </div>
+           <button>Order</button>
+         </div>
+         <div class="container-card col-xs-12 col-sm-12  col-md-6 col-lg-3 mt-5 m-2">
+           <img src="photos/26524650-f31a-46fb-a439-bd8b64cd0f9d.jpg" alt="">
+           <h3>Velvet Green Pesto Pasta</h3>
+           <p>EGP 24</p>
+           <p>Spaghetti pasta with fresh green basil pesto, a dash of fresh cream, cherry tomatoes </p>
+           <div>
+             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+           </div>
+           <button>Order</button>
+         </div>
+         <div class="container-card col-xs-12 col-sm-12  col-md-6 col-lg-3 mt-5 m-2">
+           <img src="photos/08c0d97c-15b8-4be0-abd3-b266a838bb27.jpg" alt="">
+        <h3>Spaghetti Bolognese</h3>
+           <p>EGP 24</p>
+           <p>We begin with grade a Egyptian beef, spaghetti, fresh tomatoes and herbs, it takes a long time and ends beautifully </p>
+           <div>
+             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+           </div>
+           <button>Order</button>
+         </div>
+         <div class="container-card col-xs-12 col-sm-12  col-md-6 col-lg-3 mt-5 m-2">
+           <img src="photos/fb3e81e8-a767-427b-a405-b784d9e70508.jpg" alt="">
+           <h3>Five Pearls</h3>
+           <p>EGP 24</p>
+           <p>A fabulous mouth-watering South-East Asian inspired creation using</p>
+           <div>
+             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+           </div>
+           <button>Order</button>
+         </div>
+         <div class="container-card col-xs-12 col-sm-12  col-md-6 col-lg-3 mt-5 m-2">
+           <img src="photos/e77b8a96-c58b-444a-b99c-5d80016599cd.jpg" alt="">
+        <h3>Spicy Chocolate Fudge</h3>
+           <p>EGP 24</p>
+           <p>An original Mexican delight of blended chocolates, spices, and espresso coffee  </p>
+           <div>
+             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+           </div>
+           <button>Order</button>
+         </div>
+         <div class="container-card col-xs-12 col-sm-12  col-md-6 col-lg-3 mt-5 m-2">
+           <img src="photos/95d0e800-ed41-40fd-812d-3e99d2dc111b.jpg" alt="">
+           <h3>Beef Carpaccio</h3>
+           <p>EGP 24</p>
+           <p>Thin slices of prime Egyptian beef tenderloin, arugula, mushrooms, parmigiana, capers, and olive oil, sprinkled with O's sweet balsamic dressing </p>
+           <div>
+             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+           </div>
+           <button>Order</button>
+         </div>
+         <div class="container-card col-xs-12 col-sm-12  col-md-6 col-lg-3 mt-5 m-2 mb-5">
+           <img src="photos/d66eb879-16dc-42d1-9e6f-f462d0efaa3b.jpg" alt="">
+           <h3>Panna Cotta Mango</h3>
+           <p>EGP 24</p>
+           <p>Traditional Italian cream pudding with an Egyptian twist</p>
+           <div>
+             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+           </div>
+           <button>Order</button>
+         </div>
+         <div class="container-card col-xs-12 col-sm-12  col-md-6 col-lg-3 mt-5 m-2 mb-5">
+           <img src="photos/6af19bff-a4e5-4d34-a4d1-a519ae4a832f.jpg" alt="">
+           <h3>Panna Cotta Blueberry</h3>
+           <p>EGP 24</p>
+           <p>Traditional Italian cream pudding with an Egyptian twist</p>
+           <div>
+             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+           </div>
+           <button>Order</button>
+         </div>
+         <div class="container-card col-xs-12 col-sm-12  col-md-6 col-lg-3 mt-5 m-2 mb-5">
+           <img src="photos/73d787aa-28b5-4780-b89a-d09c7107939d.jpg" alt="">
+           <h3>Butter & Honey French Toast</h3>
+           <p>EGP 24</p>
+           <p>The famous Turkish simit, freshly baked in a wood fire oven for a golden </p>
+           <div>
+             <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+           </div>
+           <button>Order</button>
+         </div>
+          
+    </div>   
+
+  </div>
+    
+  </div>
+</div>   
+  
+  
+  
+  
+  
+  
+  
+    
+  
+    
+
+    
+    
+  
+
+
+
+
+
+        
+          <script src="js/all.min.js"></script>
+          <script src="js/bootstrap.bundle.min.js"></script>          
+</body>
+</html>
